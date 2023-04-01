@@ -1,0 +1,16 @@
+.about {
+  padding: 80px 0px 120px 0px;
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

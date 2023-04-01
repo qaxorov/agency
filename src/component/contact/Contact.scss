@@ -1,0 +1,127 @@
+.contact {
+  padding-bottom: 120px;
+  &__box {
+    padding: 60px 80px;
+    background: rgba(14, 16, 20, 0.9);
+    border: 1px solid #4e4e4e;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 73px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__input {
+    width: 499px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-color: #aaaaaa;
+    outline: none;
+    color: #ffffff;
+    padding: 0px 0px 8px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+  }
+  &__title {
+    width: 640px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+  &__text1 {
+    color: #ffffff;
+  }
+  &__checkbox1 {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+  }
+
+  &__checkbox2 {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+  }
+  &__begin {
+    display: flex;
+    gap: 150px;
+  }
+  &__item__text {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 178px;
+  }
+  &__checkbox__item {
+    display: flex;
+    gap: 10px;
+  }
+  &__left__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  &__text1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__checkbox__check {
+    width: 20px;
+    height: 20px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+  }
+  input[type="checkbox"] {
+    accent-color: transparent;
+  }
+  &__right {
+    padding: 40px 60px 50px 60px;
+    background: rgba(83, 83, 83, 0.1);
+    box-shadow: 20px 20px 40px rgba(241, 216, 253, 0.08);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__right__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  &__cards {
+    width: 366px;
+    display: flex;
+    gap: 66px;
+    flex-wrap: wrap;
+  }
+  &__rightt {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+  }
+}

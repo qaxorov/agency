@@ -1,0 +1,39 @@
+.header {
+  background: rgba(23, 25, 29, 0.7);
+  backdrop-filter: blur(1px);
+
+  &__nav {
+    padding: 17px 0px 18px 0px;
+    display: flex;
+    align-items: center;
+    gap: 207px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 152px;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  &__item {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  &__btn {
+    padding: 12px 14px;
+    background-color: #6911ad;
+    border: none;
+    color: #fff;
+  }
+}

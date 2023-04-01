@@ -1,0 +1,16 @@
+.react-tabs__tab--selected {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  padding: 16px 52px;
+  background: linear-gradient(
+    93.5deg,
+    #1e11ad 12.37%,
+    rgba(105, 17, 173, 0.95) 85.28%
+  );
+  border-radius: 30px;
+  border: none;
+}
